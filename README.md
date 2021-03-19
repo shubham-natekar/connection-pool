@@ -1,14 +1,24 @@
 # Connection pool
 
 ## Introduction
-	- This application is similar to e-commerce service but dosnt.
+
+	- In this application user can create their account and login to application.
+	- I have created the below api :
+		- ' / '      Home         	method GET
+		- ' /users ' Create User	method POST
+		- ' /users ' Show Users 	method GET
+		- ' /login ' Login User		method GET
+	- I have created connection-pool script inside the "api/controllers/base.go" . 
 
 ## Requirement
+
 	- docker
 	- docker-compose 
 
 
-1. Clone the repo .  
+## Steps to run
+
+1. Clone the repo " https://github.com/shubham-natekar/connection-pool " .  
 2. Stop host machine services (postgresql/mysql/nginx). 
     eg.sudo service postgresql stop .
 3. Open .env file and set username and password for postgresql.

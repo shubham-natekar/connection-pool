@@ -7,7 +7,7 @@
 		- ' / '      Home         	method GET
 		- ' /users ' Create User	method POST
 		- ' /users ' Show Users 	method GET
-		- ' /login ' Login User		method GET
+		- ' /login ' Login User		method POST
 	- I have created connection-pool script inside the "api/controllers/base.go" . 
 
 ## Requirement
